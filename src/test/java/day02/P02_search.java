@@ -73,6 +73,8 @@ public class P02_search {
         film="Esaretin Bedeli";
         searchbox.sendKeys(film+ Keys.ENTER);
     }
+
+
     }
 
 
