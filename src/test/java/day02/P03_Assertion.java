@@ -21,7 +21,7 @@ public class P03_Assertion {
             1-https://www.automationexercise.com/ adresine gidin
             2-Üye kayıt sayfasına geçiş yapın
             3-Yeni bir üye kaydı oluşturun
-            4-Üye kaydı olışturulduğunu doğrulayın
+            4-Üye kaydı oluşturulduğunu doğrulayın
             5-Yeni üye bilgileri ile siteye giriş yapın
             6-Doğru bilgilerle Üye girişi yapılabildiğini doğrulayın
      */
@@ -53,7 +53,7 @@ public class P03_Assertion {
         driver.findElement(By.xpath("(//*[@name='email'])[2]")).sendKeys(email);
         driver.findElement(By.xpath("//*[@data-qa='signup-button']")).click();
         driver.findElement(By.id("password")).sendKeys(pass);
-        driver.findElement(By.id("first_name")).sendKeys("Murat");
+        driver.findElement(By.id("first_name")).sendKeys(name);
         driver.findElement(By.id("last_name")).sendKeys("Yiğit");
         driver.findElement(By.id("address1")).sendKeys(faker.address().fullAddress());
         driver.findElement(By.id("state")).sendKeys(faker.address().state());
