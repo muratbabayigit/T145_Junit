@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class P03_Assertion {
     static WebDriver driver;
-    static String email="mb@mb.com";
+    static String email="mb2701@mb.com";
     static String pass="1478963";
     static String name="Murat";
 
